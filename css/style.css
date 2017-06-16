@@ -1,0 +1,47 @@
+h1{
+	color:black; 
+	font-family: 'Oranienbaum', serif; 
+	font-size:40px;
+}
+
+body{
+	background-image:url(../bilder/wooden-wall.jpg);
+} 
+
+
+.navbar-inverse .navbar-brand{
+
+	background:#324063; 
+	color:black;
+
+}
+
+.navbar-inverse{
+	background: #324063;
+}
+	
+	.navbar-inverse .navbar-nav li a{
+		color:black;
+	} 
+	 
+h2{
+	color:black; 
+	font-family:arial; 
+	font-size:33px;
+} 
+
+p{
+	color:black; 
+	font-weight:arial;
+	font-size:22px;
+} 
+
+#moodboard{
+	width:300px; 
+
+} 
+li{
+	color:black;
+	font-weight:arial;
+	font-size:20px;
+}

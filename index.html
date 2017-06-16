@@ -1,0 +1,83 @@
+<!-- Tala om att det är html-dokument -->
+<!DOCTYPE html>
+
+<!-- Alla element ska finnas inom html-taggen -->
+<html>
+<!-- I head placeras saker som inte är innehåll, tex css-filer och javascript -->
+<head>
+    <!-- Dessa 3 meta-taggar måste vara först i head för att alla tecken (åäö) och Bootstrap ska fungera korrekt -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Koppla in Bootstrap css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Koppla in egen CSS-fil style.css OBS! Ha den som sista css-fil -->
+    <link rel="stylesheet" type ="text/css" href="css/style.css">
+
+    <!-- Koppla in och JQuery Bootstrap javascript -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- Koppla in egen JavaScript-fil funktion.js OBS! Ha den som sista js-fil -->
+    <script type="text/javascript" src="js/funktion.js"></script>
+
+    <!-- I title skriver du titeln som webbläsarfönstret ska ha när den här sidan besöks-->
+    <title>Min titel</title>
+</head>
+
+<!-- I body finns allt innehåll på hemsidan -->
+<body>
+
+    <!-- I header finns allt som är sidans toppdel där rubrik och menu ofta finns -->
+    <header>
+
+
+
+        <nav class="nav navbar-inverse navbar-static-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">HomePage</a>
+                    <ul class="nav navbar-nav">
+                        <!-- Byt ut # i href mot filen som ska länkas till, tex djur.html -->
+                        <li><a href="menyval1.html">Design Tips</a></li>
+                        <li><a href="menyval2.html">DIYs</a></li>
+                        <li><a href="menyval3.html">Scratch</a></li>
+                    </ul>
+                </div>
+            </nav>
+    </header>
+
+    <!-- I main finns huvudsakliga innehållet, exempelvis blogginlägg eller topplistor -->
+    <main>
+
+    <h1> Hi! I'm Unique4ever and welcome to my Fashion Blog!</h1> 
+
+
+    <p> This is a place for people that love fashion, like me. </p> 
+    <p> Let's face it, not all of us can afford the life of a Kardashian.</p>  
+    <p> So, that's why I'm here to show you some SUPER pocket friendly DIYs.</p>
+    <p> As well as great (at least that's what I like to think of them as) fashion tips. </p> 
+    <p> I'm sharing these tips in hope that these come in handy if your intrest in fashion is very recent</p>
+    <p> or if you're in need of some inspiration.</p>
+    <p> I really want to tell everyone about myself, but i honestly think think that it would be much better to stay anonynous.</p>
+    <p> I hope all of my writing comes in handy and for all you know i might just reveal myself someday.</p>
+
+    <h2> Here's a few  moodboards that are very much my style, and they might help you understand my style.</h2>
+    <img src="bilder/my_moodboard.jpg">     <img src="bilder/metalics.jpg" id="moodboard"> 
+
+
+    <p> As you can see that my style is very much full of metallics, blues</p>
+    <p> and I know that I didn't mention it but i do like a pop of colour once in a while.</p> 
+
+
+
+
+   
+
+
+
+    <p> I know people dont read or at least keep up with blogs that much anymore,</p>
+    <p> but i feel like they are much easier to follow along with. Also a great way to stay anonymous.</p>
+    </main>
+</body>
+</html>
